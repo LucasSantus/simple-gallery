@@ -2,15 +2,41 @@
 
 <html lang="pt-BR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Simple site on posts" />
+        <meta name="author" content="Lucas Eduardo de Oliveira Santos" />
+
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.co">
 
         <script src="assets/js/scripts.js" defer></script>
 
         <link href="assets/css/styles.css" rel="stylesheet">
 
         <title>Simple Gallery</title>
+
+        <!-- if javascript is disabled, this content will appear -->
+        <noscript>
+            <style type="text/css">
+                body section{
+                    display: none;
+                }
+                .javascript__disabled{
+                    display: flex;
+                    width: 100%;
+                    height: 100vh;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 22px;
+                    background-color: #0D1117;
+                    color: #8f8f8f;
+                }
+            </style>
+            <div class="javascript__disabled">
+                JavaScript desativado, por favor, ative-o para o sistema funcionar corretamente!
+            </div>
+        </noscript>
     </head>
     <body>
         <section id="gallery"></section>
