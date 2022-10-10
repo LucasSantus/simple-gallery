@@ -1,7 +1,7 @@
 <h1 align="center">Simple Gallery</h1>
 
 <h6 align="center"> 
-	Se você quiser visualizar a aplicação, clique <a href="/">aqui</a>.
+	Se você quiser visualizar a aplicação, clique <a href="https://simple-gallery-ls.netlify.app/">aqui</a>.
 </h6>
 
 <h3 id="sobre">:information_source: Sobre</h3>
